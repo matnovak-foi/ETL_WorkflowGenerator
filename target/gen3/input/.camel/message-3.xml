@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><message id="4">
+    <source>
+        <name>employees</name>
+        <attribute>Name</attribute>
+        <user_source>source_1</user_source>
+    <type>MySQL</type><ip>localhost</ip><username>root</username><password/></source>
+    
+    <destination>
+        <name>employees</name>
+        <attribute>name</attribute>
+    <type>PostgreSQL</type><ip>192.168.3.3</ip><username>dw1</username><password>some_pass</password></destination>
+
+    <transformation>
+        <type>none</type>
+    </transformation>
+</message>

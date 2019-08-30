@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><message id="6">
+    <sources>
+        <source1>
+            <name>employees</name>
+            <attribute>Name</attribute>
+            <user_source>source_1</user_source>
+        </source1>
+        <source2>
+            <name>employees</name>
+            <attribute>Surname</attribute>
+            <user_source>source_1</user_source>
+        </source2>
+    </sources>
+    
+    <destination>
+        <name>employees</name>
+        <attribute>Name_Surname</attribute>
+    </destination>
+
+    <transformation>
+        <type>merge</type>
+    </transformation>
+<command>yes2</command></message>

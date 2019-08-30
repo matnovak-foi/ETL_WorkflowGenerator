@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><message id="10">
+    <sources>
+        <source1>
+            <name>employees</name>
+            <attribute>Street</attribute>
+            <user_source>source_1</user_source>
+        </source1>
+        <source2>
+            <name>employees</name>
+            <attribute>Number</attribute>
+            <user_source>source_1</user_source>
+        </source2>
+        <source3>
+            <name>employees</name>
+            <attribute>City</attribute>
+            <user_source>source_1</user_source>
+        </source3>
+    </sources>
+    
+    <destination>
+        <name>employees</name>
+        <attribute>Street_Number_City</attribute>
+    </destination>
+
+    <transformation>
+        <type>merge</type>
+    </transformation>
+<command>yes2</command></message>

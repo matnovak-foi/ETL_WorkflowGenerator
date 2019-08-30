@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><root_message>
+	<destination>
+	<name>employees</name><attribute>Street_Number_City</attribute><type>PostgreSQL</type><ip>192.168.3.3</ip><username>dw1</username><password>some_pass</password></destination>
+<message id="14">
+        <source>
+            <name>employees</name>
+            <attribute>Street</attribute>
+            <user_source>source_2</user_source>
+        <type>PostgreSQL</type><ip>localhost</ip><username>root</username><password/></source>
+    
+    <destination>
+        <name>employees</name>
+        <attribute>Street</attribute>
+    <type>PostgreSQL</type><ip>192.168.3.3</ip><username>dw1</username><password>some_pass</password></destination>
+
+    <transformation>
+        <type>none</type>
+    </transformation>
+</message><message id="15">
+        <source>
+            <name>employees</name>
+            <attribute>Number</attribute>
+            <user_source>source_2</user_source>
+        <type>PostgreSQL</type><ip>localhost</ip><username>root</username><password/></source>
+    
+    <destination>
+        <name>employees</name>
+        <attribute>Number</attribute>
+    <type>PostgreSQL</type><ip>192.168.3.3</ip><username>dw1</username><password>some_pass</password></destination>
+
+    <transformation>
+        <type>none</type>
+    </transformation>
+</message><message id="16">
+        <source>
+            <name>employees</name>
+            <attribute>City</attribute>
+            <user_source>source_2</user_source>
+        <type>PostgreSQL</type><ip>localhost</ip><username>root</username><password/></source>
+    
+    <destination>
+        <name>employees</name>
+        <attribute>City</attribute>
+    <type>PostgreSQL</type><ip>192.168.3.3</ip><username>dw1</username><password>some_pass</password></destination>
+
+    <transformation>
+        <type>none</type>
+    </transformation>
+</message></root_message>
